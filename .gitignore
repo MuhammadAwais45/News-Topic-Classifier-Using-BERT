@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual env
+venv/
+.env/
+.venv/
+
+# Hugging Face cache
+~/.cache/huggingface/
+cache/
+
+# Model files
+*.bin
+*.safetensors
+*.h5
+*.pt
+
+# Training checkpoints
+checkpoint-*/
+results_*/
+news_classifier_bert_base/
